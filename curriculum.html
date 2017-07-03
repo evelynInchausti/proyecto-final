@@ -1,0 +1,130 @@
+<html>
+<head>
+ <title>Curriculum</title>
+ 
+  <link href="css/css_curriculum/curriculum.css" rel="stylesheet" type="text/css">
+	
+  <script src="java/js_curriculum/curriculum.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+	  
+<style text/css>
+     #botonn:link    {color: white;   text-decoration: none;}
+     #botonn:visited {color: white; text-decoration: none;}
+     #botonn:hover   {color:#F1958A; text-decoration: none;}
+
+	 #pro:link {color:white; text-decoration:none;}
+	 #pro:visited {color:white; text-decoration:none;}
+	 #pro:hover {color:#F1958A;  background-color:#A2D9CE; text-decoration:none;}
+
+	 a:link {color:white; text-decoration:none;}
+	 a:visited {color:white; text-decoration:none;}
+	 a:hover {color:#F1958A;  text-decoration:none;}
+
+	 </style>
+
+    <meta charset="utf-8">
+</head>
+<body >
+<script>
+  jQuery(document).ready(function($) {
+   $('.slider').unslider({
+     arrows: true,
+     autoplay: true,
+});
+});
+     
+    
+  };
+</script>
+
+<div id="contenido">
+  <div id="img">
+        <IMG SRC="imagenes/curriculum/foto.jpg" width="200" height="250" > <br>
+  <ul >
+        <li class="boton" ><a id="botonn" href="#info" >PRESENTACION</a></li>
+        <li class="boton"><a id="botonn" href="#forma" >FORMACION</a></li>
+        <li class="boton"><a id="botonn" href="#exp">EXPERIENCIA</a></li>
+        <li class="boton"><a id="botonn" href="#portafolio">PORTAFOLIO</a></li>
+  </ul>
+
+  </div>
+
+<div id="info">
+         <h2>Quién soy</h2>
+       <hr color="#A2D9CE">
+         <h1>EVELYN INCHAUSTI</h1>
+         <h3> Front-end Jr.</h3>
+       <ul >
+           <li class="linea">NOMBRE: Evelyn Bélen Inchausti</li> <br>
+           <li class="linea">EDAD: 18 años </li><br>
+           <li class="linea">DIRECCION: Tinogasta 5693 </li><br>
+           <li class="linea">NACIONALIDAD: Argentina </li><br>
+           <li class="linea">E-MAIL: eve.lliinn@hotmail.com </li><br>
+           <li class="linea">TELEFONO: 1164807470</li><br>
+      </ul>
+	Me encantaria formar parte de su equipo laboral, en este momento, me encuentro en mi ultimo año de
+secundaria y planeo seguir estudiando. <br>
+Soy muy buena trabajando en equipo, me adapto muy rapido a diferentes areas, tengo ganas de seguir aprendiendo,
+me siento capaz y muy responsable. <br>
+
+</div>
+
+<div id="forma">
+
+		<h2>Formación</h2>
+       <hr color="#A2D9CE">
+         <p>
+         <h3>Escuela Tecnica N°35 Ing.Eduardo Latzina</h3>
+  Estoy cursando orientacion a computacion porque pienso que es el mejor momento para seguir una carrera
+   en el area tecnologica, me parece interesante. Tengo pensado seguir la carrera de  Ing. en Sistemas.
+   LENGUAJES APRENDIDOS: C++,processing (los dos con orientacion a Java).
+         <h3>Curso HTML 5 - Acámica</h3>
+  El curso HTML 5 me enseño como programar una pagina web, lo importante que es la dimension
+  ya que para cada aparato tecnologico (celular-tablet-netbook-etc...) la dimension va a ser diferente.
+  La importancia de esto, un buen diseño, y un contenido eficaz hace que nuestra pagina web sea eficiente.
+         </p>
+</div>
+
+<div id="exp">
+         <h2>Experiencia laboral</h2>
+       <hr color="#A2D9CE">
+         <p>
+ Carpinteria: Desde 2014-Actualidad <br>
+ Ya que estudio aprovecho los recesos escolares para dar clases particulares a personas que se encuentren en años anteriores
+ al mio (secundaria y primaria) las materias en las que me especializo orbitan en la computación.
+         </p>
+</div>
+<div id="portafolio">
+<h2>Portafolio</h2>
+       <hr color="#A2D9CE">
+	
+   <div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <a href="pikachu.html" target="blank"><img src="imagenes/curriculum/1.png" style="width:100%"></a>
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <a href="horadaven.html" target="blank_"><img src="imagenes/curriculum/2.png" style="width:100%">
+   </div>
+   </div>
+   </div>
+
+    <div class="text"></div>
+  </div>
+   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+ 
+</div>
+       </body>
+</html>
